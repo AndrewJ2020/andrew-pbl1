@@ -16,3 +16,5 @@ Created an AWS account: Here is a screenshot of my AWS homepage:
 ![connecttoec2instance](https://user-images.githubusercontent.com/110178748/182003018-afa69f8c-0ee2-40be-b830-d6eafa29c9c8.png)
 
 
+# Step 1: Installing Apache and Updating the Firewall 
+
