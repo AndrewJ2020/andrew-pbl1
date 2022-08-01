@@ -219,12 +219,13 @@ This will open a blank file. Add the following text, which is valid PHP code, in
 <?php
 phpinfo();
 
-![projectlamp18](https://user-images.githubusercontent.com/110178748/182205427-aa72c928-0c0b-4423-ae42-54d2a34dd147.png)
-
+![projectlamp18](https://user-images.githubusercontent.com/110178748/182208899-0a003617-986a-4f8a-8ced-d21fdff7fc4c.png)
 
 When i am finished, I save and close the file, refresh the page and i see: 
 
-![projectlamp20](https://user-images.githubusercontent.com/110178748/182208625-d990bf87-6d68-4560-ab0e-d47115a14fca.png)
+![projectlamp20](https://user-images.githubusercontent.com/110178748/182208936-4ea74a47-3a93-4f40-bc1e-be5607e24d5c.png)
+
+
 
 
 
