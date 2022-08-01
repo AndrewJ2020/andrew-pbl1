@@ -206,9 +206,31 @@ I would like to change the default behaviour to this:
         DirectoryIndex index.php index.html index.cgi index.pl index.xhtml index.htm
 </IfModule>
 
-![projectlamp14](https://user-images.githubusercontent.com/110178748/182198755-e37f7593-78e8-4dbf-8e9f-0e506a94b681.png)
+![projectlamp16](https://user-images.githubusercontent.com/110178748/182205043-3bdfdfb9-e73d-45c1-95f6-7ba8500b4c0a.png)
+
 
 I reload Apache so the changes take effect:  sudo systemctl reload apache2
+
+![projectlamp17](https://user-images.githubusercontent.com/110178748/182205133-8a9c5ebb-7b58-4c79-b4c1-f62b969da84e.png)
+
+
+I Create a new file named index.php inside your custom web root folder: vim /var/www/projectlamp/index.php
+This will open a blank file. Add the following text, which is valid PHP code, inside the file:
+<?php
+phpinfo();
+
+![projectlamp18](https://user-images.githubusercontent.com/110178748/182205427-aa72c928-0c0b-4423-ae42-54d2a34dd147.png)
+
+
+When i am finished, I save and close the file, refresh the page and i see: 
+
+![projectlamp20](https://user-images.githubusercontent.com/110178748/182208625-d990bf87-6d68-4560-ab0e-d47115a14fca.png)
+
+
+
+
+
+
 
 
   
