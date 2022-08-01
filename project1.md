@@ -216,8 +216,9 @@ I reload Apache so the changes take effect:  sudo systemctl reload apache2
 
 I Create a new file named index.php inside your custom web root folder: vim /var/www/projectlamp/index.php
 This will open a blank file. Add the following text, which is valid PHP code, inside the file:
-<?php
-phpinfo();
+
+**(<?php
+phpinfo()**
 
 ![projectlamp18](https://user-images.githubusercontent.com/110178748/182208899-0a003617-986a-4f8a-8ced-d21fdff7fc4c.png)
 
