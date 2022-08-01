@@ -54,7 +54,20 @@ TCP port 22 open by default on my EC2 machine to access it via SSH, so I added a
 
 I now Check how I can access it locally in my Ubuntu shell,
 
-I ran :  curl http://localhost:80 
+TO access my server via DNS name i ran :  curl http://localhost:80  
+
+![1](https://user-images.githubusercontent.com/110178748/182161053-918fc338-b260-4f1d-9f08-d448145ff702.png)
+![2](https://user-images.githubusercontent.com/110178748/182161064-16d83799-490f-4bf4-93ef-c527f07fd825.png)
+![3](https://user-images.githubusercontent.com/110178748/182161078-5711d9a9-95cc-465e-bfaf-7299d0281b49.png)
+![4](https://user-images.githubusercontent.com/110178748/182161085-ec62c066-1782-494b-914b-7a1b4d147345.png)
+![5](https://user-images.githubusercontent.com/110178748/182161099-6905e52b-955a-46e9-97f4-0ca58fcb83ca.png)
+![6](https://user-images.githubusercontent.com/110178748/182161107-276058dc-6505-47a6-8d44-822a77163c2d.png)
+![7](https://user-images.githubusercontent.com/110178748/182161115-b338f32a-1aad-46b7-9507-7147ccf3ad03.png)
+
+**I could also access my server using its ip address with the same result above** using thie following command curl http://127.0.0.1:80
+
+
+
 
 
 
